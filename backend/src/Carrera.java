@@ -1,0 +1,1 @@
+public record Carrera(int id, String nombre, String grado) {}

@@ -1,0 +1,1 @@
+public record Escuela(int id, String nombre) {}

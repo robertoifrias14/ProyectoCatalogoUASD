@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Carreras UASD</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Catálogo de Carreras – UASD</h1>
+    <p class="sub">Selecciona una escuela y consulta las carreras ofertadas.</p>
+
+    <div class="controles">
+      <select id="escuela">
+        <option value="">-- Selecciona una escuela --</option>
+      </select>
+      <button id="btnConsultar">Ver carreras</button>
+    </div>
+
+    <p id="mensaje" class="mensaje"></p>
+    <ul id="listaCarreras" class="lista"></ul>
+  </main>
+
+  <section class="contenedor">
+    <h2>Video</h2>
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/embed/i4cL5_eMKts"
+        title="Video de YouTube"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

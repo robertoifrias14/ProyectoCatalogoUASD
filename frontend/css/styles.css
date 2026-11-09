@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1b2a41;
+  /* Capa azul semitransparente sobre la imagen para que el texto se lea bien */
+  background:
+    linear-gradient(rgba(11, 61, 145, .55), rgba(11, 61, 145, .55)),
+    url("../img/fondo-uasd.jpg") center / cover no-repeat fixed;
+  background-color: #0b3d91; /* respaldo si la imagen no carga */
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto 28px;
+  padding: 28px;
+  background: rgba(255, 255, 255, .95);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+}
+
+h1 { margin: 0 0 6px; color: #0b3d91; }
+h2 { margin: 0 0 14px; color: #0b3d91; }
+.sub { margin: 0 0 20px; color: #5b6b82; }
+
+.controles { display: flex; gap: 10px; flex-wrap: wrap; }
+select, button { padding: 10px 14px; font-size: 1rem; border-radius: 8px; }
+select { flex: 1; min-width: 220px; border: 1px solid #b8c4d6; }
+button { border: none; background: #0b3d91; color: #fff; cursor: pointer; }
+button:hover { background: #082d6b; }
+
+.mensaje { margin: 16px 0 0; color: #b3261e; min-height: 1.2em; }
+.lista { list-style: none; padding: 0; margin: 12px 0 0; }
+.lista li {
+  display: flex; justify-content: space-between;
+  padding: 12px 14px; margin-bottom: 8px;
+  background: #eef3fb; border-left: 4px solid #0b3d91; border-radius: 6px;
+}
+.grado { color: #5b6b82; font-size: .9rem; }
+
+/* Iframes */
+.marco {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #b8c4d6;
+  border-radius: 8px;
+}
+.nota { margin: 10px 0 0; font-size: .9rem; color: #5b6b82; }
+
+/* Video responsivo 16:9 */
+.video { position: relative; aspect-ratio: 16 / 9; }
+.video iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  border: 0; border-radius: 8px;
+}

@@ -116,3 +116,4 @@ Selecciona una escuela y presiona **Ver carreras**.
 - Java (servidor `com.sun.net.httpserver`, JDBC)
 - MySQL 8
 - HTML, CSS y JavaScript (fetch API)
+

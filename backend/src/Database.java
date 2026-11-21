@@ -8,7 +8,7 @@ public class Database {
     private static final String USER = "root";
     // La contraseña se lee de una variable de entorno para no subirla a GitHub
     private static final String PASSWORD =
-        System.getenv().getOrDefault("DB_PASSWORD", "admin");
+        System.getenv().getOrDefault("DB_PASSWORD", "0432");
         // Autenticación de ingreso de datos.
 
     public static Connection getConnection() throws SQLException {
